@@ -201,7 +201,14 @@ const getUserById = (users, id, callback) => {
     callback(user, id)
   })
 }
-
+// review example:
+// const getUserById = (users, id, cb) => {
+//   users.forEach(user => {
+//   if (user.id === id){
+//     cb(user)
+//   }    
+//   })
+// }
 
 // UNCOMMENT THE FUNCTION CALL BELOW
 // RUN THIS FILE WITH NODE
